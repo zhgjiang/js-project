@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-color: #EDEDE3;
+    color: #555555;
+    font: 76% Verdana,Helvetica,sans-serif;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+#wrapper {
+    background-color: #FFFFFF;
+    margin: 1.5em 18%;
+    padding: 20px 30px;
+    text-align: left;
+}
+
+h1{
+	color: #DBA748;
+    font-size: 2em;
+    padding-top: 0;
+}
+
+
+.section{
+	border-top: 1px solid #EDEDE3;
+    padding-top: 1em;
+}
+
+h2{
+	color: #B19165;
+    font-size: 1em;
+    padding-top: 0.5em;
+    text-transform: uppercase;
+} 
+
+p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+
