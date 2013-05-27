@@ -1,14 +1,14 @@
 js-project
 ==========
 
-This is a javascript project for learn
+本项目主要用于JavaScript的学习实践
 
-#TODO
-
+# 相关内容
 + lightbox
-+ jQuery
-+ css
-+ javascript
-+ html
-+ html5
-+ css3
+	一个图片浏览库
++ backbone
+	JavaScritp MVC框架
++ RequireJS
+	JavaScript模块化开发
+
+ 
