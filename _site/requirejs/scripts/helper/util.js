@@ -3,24 +3,22 @@ define(function() {
 
 	var version = "@VERSION@";
 
-	return {
+	var v = function() {
+				p(version);
+	};
 
-		version: function version() {
-			if(console && console.log){
-				console.log("Hello world!");
-			}else{
-				alert("Hello world!");
-			}
-		},
+	var p = function(msg) {
 
-		console: function(msg){
 			if(console && console.log){
 				console.log(msg);
 			}else{
 				alert(msg);
 			}
-		}
+	};
 
+	return {
+		v: v,
+		p: p
 	};
 
 });
