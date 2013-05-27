@@ -5,10 +5,10 @@ js-project
 
 # 相关内容
 + lightbox
-	一个图片浏览库
+		一个图片浏览库
 + backbone
-	JavaScritp MVC框架
+		JavaScritp MVC框架
 + RequireJS
-	JavaScript模块化开发
+		JavaScript模块化开发
 
  
