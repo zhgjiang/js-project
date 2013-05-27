@@ -6,7 +6,7 @@ define(function() {
 	return {
 
 		version: function version() {
-			if(console.log){
+			if(console && console.log){
 				console.log("Hello world!");
 			}else{
 				alert("Hello world!");
@@ -14,7 +14,7 @@ define(function() {
 		},
 
 		console: function(msg){
-			if(console.log){
+			if(console && console.log){
 				console.log(msg);
 			}else{
 				alert(msg);
